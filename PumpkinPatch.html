@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gareth's Maps</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet"> 
+
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="index.html">Gareth's Maps</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="maps.html">Maps</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-lg-3 col-md-2 col-0"></div>
+            <div class="col col-lg-6 col-md-6 col-md-8 col-12 info">
+                <a href="https://api.mapbox.com/styles/v1/gbaldrica/ckgh1wbo509uq19paosz0h2it.html?fresh=true&title=copy&access_token=pk.eyJ1IjoiZ2JhbGRyaWNhIiwiYSI6ImNqZnlkeGtkbTRsYTEycXBvYWhvNHl6dHQifQ.gbIkzk7MVT9R9kPcPenRsA">
+                    <h1 class="map-title">Pumpkin Patch</h1>
+                </a>
+                <p>Fall is, by far, my favorite season. Beyond the colors of falling leaves, and the overabundance of dried corn and gourds, is a sense of renewal—things are coming to an end so they can begin again. I wanted to create a map that captured this essence, the beauty of decay. I settled on a pumpkin patch. Here, cities and towns are depicted as little pumpkins, connected by the green vines of highways. As you zoom, the vines, and the surrounding colors, collapse into a series of browns and yellows, decaying.</p>
+            </div>
+            <div class="col col-md-3 col-0"></div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-1 col-md-1 col-sm-0 col-0">
+            </div>
+            <div class="col col-lg-10 col-md-10 col-sm-12 col-12">
+                <iframe width="100%" height="800px" src="https://api.mapbox.com/styles/v1/gbaldrica/ckgh1wbo509uq19paosz0h2it.html?fresh=true&title=copy&access_token=pk.eyJ1IjoiZ2JhbGRyaWNhIiwiYSI6ImNqZnlkeGtkbTRsYTEycXBvYWhvNHl6dHQifQ.gbIkzk7MVT9R9kPcPenRsA"></iframe>
+            </div>
+            <div class="col col-lg-1 col-md-1 col-sm-0 col-0">
+            </div>
+        </div>
+    </div>
+    <navbar class="navbar fixed-bottom" style="border:none; position:relative;">
+        <p class="text-center foot"><b>Gareth Baldrica-Franklin, Mapmaker</b> <i>baldricafran@wisc.edu</i></p>
+    </navbar>
+<script type="text/javascript">
+
+    function changeBackground(){
+        document.body.classList.add("background-pumpkin");
+    }
+    function removeBackground(){
+        document.body.className = "";
+    }
+
+
+</script>
+</body>
+</html>
