@@ -13,6 +13,8 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/masonry.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
 
 </head>
 <body>
@@ -24,7 +26,7 @@
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="maps.html">Maps</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
@@ -36,18 +38,21 @@
         </div>
     </div>
     
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col col-lg-3 col-md-2 col-0"></div>
-            <div class="col col-lg-6 col-md-6 col-md-8 col-12 info">
-                <!--
-                <h1>Maps</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                -->
+    <div class="container-fluid project-container">
+        <!--<h1 class="section-title">Maps</h1>-->
+        <div class="row grid-row" data-masonry='{"percentPosition": true }'>
+            <div class="col col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 item">
+                <a class="img-description" href="https://uwcartlab.github.io/coastal-erosion/">
+                    <h3>Coastal Erosion Viewer</h3>
+                </a>
+                <img class="main" src="img/cev/cev.png">
             </div>
-            <div class="col col-md-3 col-0"></div>
-        </div>
-        <div class="row">
+            <div class="col col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 item">
+                <a class="img-description" href="https://geography.wisc.edu/globalmadison/#">
+                    <h3>Global Madison</h3>
+                </a>
+                <img class="main" src="img/gm/gm.png">
+            </div>
             <div class="col col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 item">
                 <a class="img-description" href="https://cartobaldrica.github.io/where-the-naiads-go/">
                     <h3>Where the Naids Go</h3>
@@ -74,8 +79,6 @@
                 </a>
                 <img class="main" src="img/footsteps/footsteps.jpg">
             </div>
-        </div>
-        <div class="row">
             <div class="col col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 item">
                 <a class="img-description" href="http://www.footstepsoflacrosse.org/">
                     <h3>Voices of La Crosse</h3>
@@ -100,8 +103,6 @@
                 </a>
                 <img class="main" src="img/cryptid/cryptids.png">
             </div>
-        </div>
-        <div class="row">
             <div class="col col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 item">
                 <a class="img-description" href="https://hgis.uw.edu/refugee/">
                     <h3>Global Refugee Atlas</h3>
@@ -120,104 +121,18 @@
                 </a>
                 <img class="main" src="img/apr/apr.jpg">
             </div>
-        </div>
     </div>
-        <!--
-        <div class="row">
-            <div class="col col-lg-3 col-md-4 col-sm-12 item right">
-                <div class="img-description right">
-                    <h3>Pumpkin Patch</h3>
-                </div>
-                <img src="img/pumpkin-patch.png">
-            </div>
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-            <div class="col col-lg-3 col-md-4 col-sm-12 item left">
-                <a class="img-description left" >
-                    <h3>The Right to Live | The Right to Work</h3>
-                </a>
-                <img src="img/rtw_states-01.png">
-            </div>
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-        </div>
-        <div class="row">
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-            <div class="col col-lg-3 col-md-4 col-sm-12 item right">
-                <div class="img-description right">
-                    <h3>Footsteps of La Crosse</h3>
-                </div>
-                <img src="img/footsteps.jpg">
-            </div>
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-            <div class="col col-lg-3 col-md-4 col-sm-12 item left">
-                <div class="img-description left">
-                    <h3>Voices of La Crosse</h3>
-                </div>
-                <img src="img/voices.jpg">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col col-lg-3 col-md-4 col-sm-12 item right">
-                <div class="img-description right">
-                    <h3>Oregon Water Atlas</h3>
-                </div>
-                <img src="img/oregon-water-atlas.png">
-            </div>
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-            <div class="col col-lg-3 col-md-4 col-sm-12 item left">
-                <div class="img-description left">
-                    <h3>Atlas of the Pacific Northwest</h3>
-                </div>
-                <img src="img/apnw.png">
-            </div>
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-        </div>
-        <div class="row">
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-            <div class="col col-lg-3 col-md-4 col-sm-12 item right">
-                <div class="img-description right">
-                    <h3>Atlas of the Polar Regions</h3>
-                </div>
-                <img src="img/apr.jpg">
-            </div>
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-            <div class="col col-lg-3 col-md-4 col-sm-12 item left">
-                <div class="img-description left">
-                    <h3>North American Cryptid Map</h3>
-                </div>
-                <img src="img/cryptids.png">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col col-lg-3 col-md-4 col-sm-12 item right">
-                <div class="img-description right">
-                    <h3>Global Refugee Atlas</h3>
-                </div>
-                <img src="img/gra.png">
-            </div>
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-            <div class="col col-lg-3 col-md-4 col-sm-12 item left">
-                <div class="img-description left">
-                    <h3>Sandy River Shuttle Map</h3>
-                </div>
-                <img src="img/sandy.jpg">
-            </div>
-            <div class="col col-lg-3 col-md-2 col-sm-0"></div>
-        </div>
-    </div>
--->
-<navbar class="navbar fixed-bottom" style="border:none; position:relative;">
-    <p class="text-center foot"><b>Gareth Baldrica-Franklin, Mapmaker</b> <i>baldricafran@wisc.edu</i></p>
-</navbar>
+        
+    <navbar class="navbar fixed-bottom" style="border:none; position:relative;">
+        <p class="text-center foot"><b>Gareth Baldrica-Franklin, Mapmaker</b> <i>baldricafran@wisc.edu</i></p>
+    </navbar>
+
 
 <script type="text/javascript">
 
-    function changeBackground(){
-        document.body.classList.add("background-pumpkin");
-    }
-    function removeBackground(){
-        document.body.className = "";
-    }
-
+    $(window).load(function(){
+        var $grid = $('.grid-row').masonry({});
+    })
 
 </script>
 </body>
