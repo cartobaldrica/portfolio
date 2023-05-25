@@ -2,6 +2,20 @@
     font-family: goblin;
     src: url(Sketch.otf);
 }
+@font-face {
+    font-family: neuton;
+    src: url(../fonts/Neuton/Neuton-Light.ttf);
+}
+@font-face {
+    font-family: neuton;
+    src: url(../fonts/Neuton/Neuton-Bold.ttf);
+    font-weight:bold;
+}
+@font-face {
+    font-family: franklin;
+    src: url(../fonts/Franklin/LibreFranklin-Black.ttf);
+    font-weight:bold;
+}
 body{
     margin-bottom:10px;
     background-image: url(rain.svg);
@@ -14,8 +28,17 @@ body{
 }
 .main-links{
     text-align:center;
-    font-size:24px;
-    /*font-family: goblin;*/
+    font-size:20px;
+    font-family: franklin;
+}
+.main-link{
+    padding-right:10px;
+    color:black;
+}
+.main-link:hover{
+    text-shadow: 2px 2px lightgray;
+    text-decoration: none;
+    color:black;
 }
 .main-text{
     text-align:center;
@@ -50,6 +73,9 @@ body{
     visibility: hidden;
     bottom:0;
     z-index:10;
+    font-family: franklin;
+    font-weight:bold;
+    font-variant: small-caps;
 }
 .img-description h3{
     font-size:48px;
@@ -121,17 +147,23 @@ p{
     font-size:48px;
 }
 .nav-link{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: franklin;
     font-size:24px;
-    font-weight:300;
+    color:black !important;
+}
+.nav-link:hover{
+    text-shadow:2px 2px lightgray;
 }
 .navbar{
     background:white;
     border-bottom:3px solid black;
 }
 .container-fluid{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: neuton;
     font-weight:300;
+}
+.map-title, .section{
+    font-family: franklin;
 }
 .row h1{
     margin-top:40px;
@@ -147,7 +179,7 @@ p{
     margin-right:15px;
 }
 .foot{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: franklin;
     width:100%;
 }
 @media only screen and (max-width: 768px) {
