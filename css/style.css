@@ -21,6 +21,7 @@ body{
     background-image: url(rain.svg);
     background-size: 10px 10px;
 }
+/*LANDING PAGE*/
 .main-title{
     text-align:center;
     font-family: goblin;
@@ -55,6 +56,20 @@ body{
     text-align:left;
     padding-left:0;
 }
+/*PROJECTS PAGE*/
+.section-title{
+    width:100%;
+    text-align: center;
+    margin:0;
+    padding:10px;
+    font-weight:bold;
+    font-family: franklin;
+    text-decoration: underline;
+    font-size:48px;
+}
+.project-section{
+    margin-bottom:50px;
+}
 .col{
     display:inline-block;
     float:none;
@@ -62,6 +77,7 @@ body{
 .desc{
     position:relative;
 }
+
 .item-desc{
     margin-top:50%;
 }
@@ -83,6 +99,32 @@ body{
     margin-left:15px;
     font-weight:bold;
 }
+
+.tool-link{
+    color:black;
+    text-decoration: none;
+    padding:15px;
+    display:block;
+    width:calc(100% - 15px);
+    height:100%;
+}
+.tool-link:hover{
+    color:black;
+    text-decoration: none;
+    background:rgba(0, 0, 0,0.1);
+}
+.tool-title{
+    font-weight:bold;
+    font-family: franklin;
+    font-size:48px;
+    font-variant: small-caps;
+}
+.tool-description{
+    font-weight:normal;
+    font-family: neuton;
+    font-size:24px;
+}
+
 .item-img-description{
     width:calc(100% - 15px);
     padding:0 5px 0 5px;
@@ -142,6 +184,7 @@ p{
     background:orange;
     color:white;
 }
+/*NAVBAR*/
 .navbar-brand{
     font-family: goblin;
     font-size:48px;
@@ -162,6 +205,7 @@ p{
     font-family: neuton;
     font-weight:300;
 }
+/*MAP PAGES*/
 .map-title, .section{
     font-family: franklin;
 }
@@ -197,12 +241,4 @@ p{
         padding:0;
     }
   }
-.section-title{
-    background:gray;
-    width:100%;
-    margin:0;
-    padding:5px;
-}
-.project-container{
-    /*padding:0;*/
-}
+
