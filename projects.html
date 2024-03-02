@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Gareth's Maps</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
 
-    
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -17,19 +21,21 @@
     <script src="js/imagesloaded.min.js"></script>
 
 </head>
+
 <body>
     <div class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="index.html"><!--<img height="10%;" src="img/gareth.png">-->Gareth's Maps</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="projects.html#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="projects.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="resume.html">Resume</a>
@@ -37,105 +43,137 @@
             </ul>
         </div>
     </div>
-    
+
     <div class="container-fluid project-container">
-        <div class="project-section row grid-row" data-masonry='{"percentPosition": true }'>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="https://mappingteejop.geography.wisc.edu/">
-                    <h3>Mapping Teejop</h3>
-                </a>
-                <img class="main" src="img/teejop/mapping-teejop.png">
-            </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="https://cartobaldrica.github.io/globes-that-maybe-were/#/">
-                    <h3>Globes that Maybe Were</h3>
-                </a>
-                <img class="main" src="img/globes/globes.png">
-            </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="https://uwcartlab.github.io/coastal-erosion/">
-                    <h3>Coastal Erosion Viewer</h3>
-                </a>
-                <img class="main" src="img/cev/cev.png">
-            </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="https://geography.wisc.edu/globalmadison/#">
-                    <h3>Global Madison</h3>
-                </a>
-                <img class="main" src="img/gm/gm.png">
-            </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="https://cartobaldrica.github.io/where-the-naiads-go/">
-                    <h3>Where the Naids Go</h3>
-                </a>
-                <img class="main" src="img/wtng/naiads.jpg">
-            </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="projects/PumpkinPatch.html">
-                    <h3>Pumpkin Patch</h3>
-                </a>
-                <img class="main" src="img/pumpkin/pumpkin-patch.png">
-            </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item" >
-                <div style="background:rgb(250,242,230);">
-                    <a class="img-description" href="projects/RightToLive.html">
-                        <h3>The Right to Live | The Right to Work</h3>
-                    </a>
-                    <img class="main" src="img/rtl-rtw/rtw_states-01.png">
+        <!--about section-->
+        <div id="about" class="col offset-md-2 col-md-8 offset-sm-1 col-sm-10 col-12">
+            <!--<h1 class="map-title">About Me</h1>-->
+            <br>
+            <div class="about">
+                <!--<img style="width:25%; margin:auto; margin-bottom:20px; display:block;" src="img/garethpic.png">-->
+                <h1 class="section-title">WELCOME!</h1>
+                <p>Hello—I'm Gareth! I'm a mapmaker, fiction writer, educator, and currently a PhD student at the University of Wisconsin-Madison. My research interests include atlases, place-based storytelling, situated learning, and indigenous cartographies. Much of my mapmaking has manifested as stories, tours, and atlases, and in particular the use and creation of open-source mapmaking tools. I believe that maps can be used to challenge and expand our understandings of places and broader power structures, and I hope to inspire my students to do so as well. Check out my resume if you think our interests might align. I'd love to hear from you at <a href="mailto:baldricafran@wisc.edu">baldricafran@wisc.edu</a>.</p>
+                <p>You can also find source code for most of my digital projects on my <a href="https://github.com/cartobaldrica/">Github</a> page.</p>
+                <br/>
+                <div>
+                    <a class="social" href="https://github.com/cartobaldrica/"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a class="social" href="https://www.linkedin.com/in/gareth-baldrica-franklin-61838191/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </div>
             </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="projects/Footsteps.html">
-                    <h3>Footsteps of La Crosse</h3>
+        </div>
+        <!--<div class="project-section row grid-row" data-masonry='{"percentPosition": true }'>-->
+        <h1  id="projects" class="section-title">MAPS</h1>
+        <div class="project-section row">
+            <div class="item  col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="https://mappingteejop.wisc.edu/">
+                    <img class="img-main" src="img/teejop/mapping-teejop.png">
+                    <p>Mapping Teejop</p>
+                    <p class="proj-desc">A series of walking tours of the University of Wisconsin—Madison campus designed to highlight indigenous history and presence. Made in partnership with Drs. Kasey Keeler and Sasha Suarez.</p>
                 </a>
-                <img class="main" src="img/footsteps/footsteps.jpg">
             </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="projects/Voices.html">
-                    <h3>Voices of La Crosse</h3>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="https://cartobaldrica.github.io/globes-that-maybe-were/#/">
+                    <img class="img-main" src="img/globes/globes.png">
+                    <p>Globes that Maybe Were</p>
+                    <p class="proj-desc">A visual repository of the wonderous and absurd world of globe patents. Inspired by <i>Patents and Cartographic Inventions</i> by Mark Monmonier.</p>
                 </a>
-                <img class="main" src="img/voices/voices.jpg">
             </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="projects/AtlasOfThePNW.html">
-                    <h3>Atlas of the Pacific Northwest</h3>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="https://uwcartlab.github.io/coastal-erosion/">
+                    <img class="img-main" src="img/cev/cev.png">
+                    <p>Coastal Erosion Viewer</p>
+                    <p class="proj-desc">A tool for exploring erosion on Wisconsin's Lake Michigan coast. Made in partnership with David Hart and Wisconsin Sea Grant.</p>
                 </a>
-                <img class="main" src="img/apnw/apnw.png">
             </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="projects/OregonWaterAtlas.html">
-                    <h3>Oregon Water Atlas</h3>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="https://geography.wisc.edu/globalmadison/#">
+                    <img class="img-main" src="img/gm/gm.png">
+                    <p>Global Madison</p>
+                    <p class="proj-desc">An educational walking tour through downtown Madison, Wisconsin, highlighting the city's changing relationship to globalization over time. Created in partnership with Drs. Stephen Young, Sarah Moore, and Robert Roth.</p>
                 </a>
-                <img class="main" src="img/owa/oregon-water-atlas.png">
             </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="https://rawgit.com/cartobaldrica/cryptid/master/index.html">
-                    <h3>North American Cryptid Map</h3>
+            <div class="item  col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="https://cartobaldrica.github.io/where-the-naiads-go/">
+                    <img class="img-main" src="img/wtng/naiads.jpg">
+                    <p>Where the Naiads Go</p>
+                    <p class="proj-desc">The visual story of freshwater mussels in the Mississippi basin, emphasizing their role in oral tradition, environmental health, and industry.</p>
                 </a>
-                <img class="main" src="img/cryptid/cryptids.png">
             </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="https://hgis.uw.edu/refugee/">
-                    <h3>Global Refugee Atlas</h3>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="projects/PumpkinPatch.html">
+                    <img class="img-main" src="img/pumpkin/pumpkin-patch.png">
+                    <p>Pumpkin Patch</p>
+                    <p class="proj-desc">An experiment in a creative, fall-themed basemap style.</p>
                 </a>
-                <img class="main" src="img/gra/gra.png">
             </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="projects/SandyRiver.html">
-                    <h3>Sandy River Shuttle Map</h3>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="https://mappingteejop.geography.wisc.edu/">
+                    <img class="img-main" src="img/rtl-rtw/rtw_states-01.png">
+                    <p>The Right to Live | The Right to Work</p>
+                    <p class="proj-desc">The history of anti-labor "Right to Work" laws in the United States, showing their spread and consequences.</p>
                 </a>
-                <img class="main" src="img/sandy/sandy.jpg">
             </div>
-            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
-                <a class="img-description" href="projects/PolarRegionsAtlas.html">
-                    <h3>Atlas of the Polar Regions</h3>
+            <div class="item  col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="projects/Footsteps.html">
+                    <img class="img-main" src="img/footsteps/footsteps.jpg">
+                    <p>Footsteps of La Crosse</p>
+                    <p class="proj-desc">Maps for a series of historical walking tours created for the La Crosse Public Library archives.</p>
                 </a>
-                <img class="main" src="img/apr/apr.jpg">
+            </div>
+            <div class="item  col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="projects/Voices.html">
+                    <img class="img-main" src="img/voices/voices.jpg">
+                    <p>Voices of La Crosse</p>
+                    <p class="proj-desc">A series of maps connected thematically related sites of the <i>Hear, Here</i> public history project created by the Public Library in La Crosse, Wisconsin.</p>
+                </a>
+            </div>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="projects/AtlasOfThePNW.html">
+                    <img class="img-main" src="img/apnw/apnw.png">
+                    <p>Atlas of the Pacific Northwest</p>
+                    <p class="proj-desc">The first online edition of the long-published Atlas of the Pacific Northwest, a compilation of maps and data centered on Oregon, Washington, and Idaho. Created in partnership with Oregon State University Libraries and Press.</p>
+                </a>
+            </div>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="projects/OregonWaterAtlas.html">
+                    <img class="img-main" src="img/owa/oregon-water-atlas.png">
+                    <p>Oregon Water Atlas</p>
+                    <p class="proj-desc">An atlas compiling a variety of data and stories about water in the state of Oregon. Created in partnership with the Institute for Water and Watersheds for my undergraduate thesis.</p>
+                </a>
+            </div>
+            <div class="item  col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="https://hgis.uw.edu/refugee/">
+                    <img class="img-main" src="img/gra/gra.png">
+                    <p>Global Refugee Atlas</p>
+                    <p class="proj-desc">An atlas highlighting the extent and conditions of refugee camps and settlements across the world. Created in partnership with Dr. Bo Zhao and Giovanni Svevo.</p>
+                </a>
+            </div>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="https://rawgit.com/cartobaldrica/cryptid/master/index.html">
+                    <img class="img-main" src="img/cryptid/cryptids.png">
+                    <p>North American Cryptid Map</p>
+                    <p class="proj-desc">A story map about lake monsters and bigfoot sightings. My first web map!</p>
+                </a>
+            </div>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="projects/SandyRiver.html">
+                    <img class="img-main" src="img/sandy/sandy.jpg">
+                    <p>Sandy River Shuttle Map</p>
+                    <p class="proj-desc">Access points and recreation areas along the Sandy River in East Multnomah County, Oregon, created with Matthew Hampton for Oregon Metro.</p>
+                </a>
+            </div>
+            <div class="item col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+                <a class="img-desc" href="projects/PolarRegionsAtlas.html">
+                    <img class="img-main" src="img/apr/apr.jpg">
+                    <p>Atlas of the Polar Regions</p>
+                    <p class="proj-desc">An iBooks atlas showing a variety of Arctic and Antarctic topics. Created for a computer-assisted cartography class taught by Drs. Bernhard Jenny and Jane Darbyshire.</p>
+                </a>
             </div>
         </div>
+
         <h1 class="section-title">TOOLS</h1>
         <div class="project-section row">
-            <div class="col offset-xl-2 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
+            <div class="col  col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 item">
                 <a class="tool-link" href="https://github.com/cartobaldrica/scrollmap">
                     <h3 class="tool-title">Scrollmap</h3>
                     <p class="tool-description">Create scrolling storymaps with HTML/CSS.</p>
@@ -155,18 +193,11 @@
             </div>
         </div>
     </div>
-        
+
     <navbar class="navbar fixed-bottom" style="border:none; position:relative;">
         <p class="text-center foot"><b>Gareth Baldrica-Franklin, Mapmaker</b> <i>baldricafran@wisc.edu</i></p>
     </navbar>
 
-
-<script type="text/javascript">
-
-    $(window).load(function(){
-        var $grid = $('.grid-row').masonry({});
-    })
-
-</script>
 </body>
+
 </html>
