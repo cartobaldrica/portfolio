@@ -1,247 +1,143 @@
 @font-face {
-    font-family: goblin;
-    src: url(Sketch.otf);
-}
-@font-face {
     font-family: neuton;
-    src: url(../fonts/Neuton/Neuton-Light.ttf);
+    src: url(../fonts/Neuton/Neuton-light.ttf);
 }
 @font-face {
     font-family: neuton;
     src: url(../fonts/Neuton/Neuton-Bold.ttf);
     font-weight:bold;
 }
-
-@font-face {
-    font-family: franklin;
-    src: url(../fonts/neuton/Libreneuton-Black.ttf);
-    font-weight:bold;
-}
-body{
-    margin-bottom:10px;
-    background-image: url(rain.svg);
-    background-size: 10px 10px;
-}
 /*LANDING PAGE*/
 .main-title{
     text-align:center;
-    font-family: goblin;
-    font-size:72px;
-}
-.main-links{
-    text-align:center;
-    font-size:24px;
     font-family: neuton;
-    text-decoration: underline;
-}
-.main-link{
-    padding-right:30px;
+    font-size:100px;
+    line-height: 85px;
     color:black;
-}
-.main-link:hover{
-    text-shadow: 2px 2px lightgray;
-    text-decoration: none;
-    color:black;
-}
-.main-text{
-    text-align:center;
-    font-size:24px;
-}
-.title{
-    height:50px;
-}
-.left{
-    text-align:right;
-    padding-right:0;
-}
-.right{
-    text-align:left;
-    padding-left:0;
-}
-/*PROJECTS PAGE*/
-.about > p {
-    font-size:24px;
-    line-height: 30px;
-}
-.about a{
-    font-weight:bold !important;
-}
-.section-title{
-    width:100%;
-    text-align: center;
-    margin:0;
-    padding:10px;
-    font-weight:bold;
-    font-family: goblin;
-    font-size:48px;
-}
-.project-section{
-    margin-bottom:50px;
-}
-.proj-desc{
-    font-weight:normal;
-    text-decoration: none;
-    color:black;
-}
-.img-desc:hover{
-    text-decoration: none !important;
-}
-.col{
-    display:inline-block;
-    float:none;
-}
-.desc{
-    position:relative;
-}
-
-.item{
-    padding:25px 12px 25px 12px;
-}
-
-.img-main{
-    width:100%;
-    display:block;
-}
-
-.item-desc > p{
-    margin-top:50%;
-    font-size: 24px;
-}
-.img-description{
-    width:calc(100% - 15px);
-    height:100%;
-    padding:0 5px 0 5px;
-    position: absolute;
-    visibility: hidden;
-    bottom:0;
-    z-index:10;
-    font-family: neuton;
-    font-weight:bold;
+    margin-top:10px;
+    text-shadow: 2px 2px gray;
     font-variant: small-caps;
-}
-.img-description h3{
-    font-size:48px;
-    margin-top:15px;
-    margin-left:15px;
-    font-weight:bold;
-}
-.img-desc{
-    font-weight:bold;
-    font-size:28px;
-}
-
-.tool-link{
-    color:black;
-    text-decoration: none;
-    padding:15px;
-    display:block;
-    width:calc(100% - 15px);
-    height:100%;
-}
-.tool-link:hover{
-    color:black;
-    text-decoration: none;
-}
-.tool-title{
-    font-weight:bold;
-    font-family: neuton;
-    font-size:48px;
-    font-variant: small-caps;
-}
-.tool-description{
-    font-weight:normal;
-    font-family: neuton;
-    font-size:24px;
-}
-
-.item-img-description{
-    width:calc(100% - 15px);
-    padding:0 5px 0 5px;
-    position: absolute;
-    visibility: hidden;
-    bottom:0;
-    z-index:10;
-    background:rgba(0, 0, 0,0.1);
-}
-.item-img-description p{
-    margin-bottom:0;
-}
-.item:hover{
-    cursor:pointer;
-    z-index:10;
-    background:rgba(0,0,0,0.1);
-}
-.item:hover img.main{
-    opacity:0.2;
-}
-.item:hover .img-description, .item:hover .item-img-description{
-    visibility:visible;
-    cursor:pointer;
-    text-decoration:none;
-    color:black;
 }
 img{
     width:100%;
 }
-.date{
-    margin-bottom:0;
-}
-.resume{
-    margin-bottom:75px;
-}
-.section{
-    margin-bottom:15px;
-    font-weight:bold;
-}
-.subsection{
-    font-weight:bold;
-}
-.loc{
-    font-style:italic;
-    margin-bottom:0px;
-}
-.job{
-    font-weight:bold;
-    margin-bottom:0px;
-}
-li p{
-    margin-bottom:0;
-}
 p{
     font-size:20px;
-    line-height:26px;
+    line-height:22px;
 }
-.background-pumpkin{
-    background:orange;
-    color:white;
-}
-/*NAVBAR*/
-.navbar-brand{
-    font-family: goblin;
-    font-size:48px;
-}
-.nav-link{
-    font-family: neuton;
-    font-size:24px;
-    color:black !important;
-}
-.nav-link:hover{
-    text-shadow:2px 2px lightgray;
-}
-.navbar{
-    background:white;
-    border-bottom:3px solid black;
+
+.gif{
+    width:150px;
 }
 .container-fluid{
     font-family: neuton;
     font-weight:300;
 }
+/*PROJECTS PAGE*/
+/*row styling*/
+.row{
+    border-left:2px solid black;
+    border-right:2px solid black;
+}
+.project-section{
+    padding-bottom:100px;
+}
+/*title section*/
+.section-title{
+    text-align: center;
+}
+.title-section{
+    text-align: center;
+    padding-top:25px;
+}
+.section-title > h1{
+    margin:0;
+    padding-bottom:20px;
+    font-family: neuton;
+    font-size:48px;
+    color:black;
+    width:100%;
+}
+/*about section*/
+#about{
+    margin-top:50px;
+}
+#about > p {
+    font-size:24px;
+    text-align:left;
+}
+#about a{
+    font-weight:bold !important;
+    color:black;
+    text-decoration: underline;
+}
+.emphasis{
+    font-weight:bold;
+    font-variant: small-caps;
+}
+/*portfolio items*/
+.item{
+    padding:10px;
+    font-weight:bold;
+    font-size:28px;
+}
+.item:hover{
+    cursor:pointer;
+    z-index:10;
+    background:rgba(0,0,0,0.1);
+    text-decoration:none;
+    color:black;
+}
+.item-title{
+    color:black;
+    font-variant: small-caps;
+    margin-bottom:0px;
+}
+.item-desc{
+    font-weight:normal;
+    text-decoration: none;
+    color:black;
+}
+.item-container:hover{
+    text-decoration: none !important;
+}
+/*CV*/
+#cv-iframe{
+    width:100%;
+    height:500px;
+}
+/*NAVBAR*/
+.nav-link{
+    font-family: neuton;
+    font-size:20px;
+    color:white !important;
+}
+.nav-link:hover{
+    text-decoration:underline;
+}
+.navbar{
+    background:black;
+    color:white;
+    height:35px;
+    text-align:center;
+}
+.navbar-list{
+    margin:auto;
+}
+.navbar-nav{
+    flex-direction: row;
+}
+#g{
+    font-weight:bold;
+    color:darkgray !important;
+    text-shadow:1px 1px lightgray;
+}
+#g:hover{
+    text-decoration: none;
+}
 /*MAP PAGES*/
 .map-title, .section{
     font-family: neuton;
-}
-.row h1{
-    margin-top:40px;
 }
 .map-title{
     font-weight:bold;
@@ -256,8 +152,23 @@ p{
 .foot{
     font-family: neuton;
     width:100%;
+    padding-bottom:10px;
+    color:black;
 }
-
+.fixed-bottom{
+    background:none !important;
+}
+.cv-section, .map-section{
+    border-bottom:2px solid black;
+}
+/*map pages*/
+.map-desc{
+    font-size:20px;
+    line-height:22px;
+}
+.map-img{
+    padding:10px;
+}
 @media only screen and (min-width: 768px) {
     .info {
       margin-left:15px;
@@ -266,15 +177,32 @@ p{
         padding-left:5%;
         padding-right:5%;
     }
-
   }
-@media only screen and (max-width: 572px) {
-    .info {
-        margin-left:0px;
-      }
-  }
-  @media only screen and (min-width: 572px) {
-    .col{
+@media only screen and (max-width: 768px) {
+    .navbar{
+        background:black;
+        color:white;
+        height:50px;
+        text-align:center;
+    }
+    .nav-link{
+        padding:0;
+    }
+    .nav-item{
+        margin:auto;
+    }
+    #g-container{
+        display:none
+    }
+    .row{
+        border-left:2px solid black;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    .tool-description{
+        margin-bottom:0;
+    }
+    .tool-link{
         padding:0;
     }
   }
