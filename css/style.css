@@ -1,10 +1,10 @@
 @font-face {
     font-family: neuton;
-    src: url(../fonts/Neuton/Neuton-light.ttf);
+    src: url(./fonts/Neuton-light.ttf);
 }
 @font-face {
     font-family: neuton;
-    src: url(../fonts/Neuton/Neuton-Bold.ttf);
+    src: url(./fonts/Neuton-Bold.ttf);
     font-weight:bold;
 }
 /*LANDING PAGE*/
